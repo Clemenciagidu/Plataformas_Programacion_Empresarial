@@ -105,6 +105,39 @@
 
     </form>
 
+
+    <h2>Validacion Demostracion</h2>
+    <form action="/dummy">
+    	<label for="nombre">Ingrese su nombre</label>
+    	<input type="text" name="nombre" id="nombre" required="">
+    	<p>
+    		<label for="username">Nombre de usuario</label>
+    		<input type="text" id="username" name="username" minlength="5" maxlength="20" required>
+    	</p>
+
+    	<p>
+    		<label for="email">Email</label>
+    		<input type="email" required>
+
+    	</p>
+    	<p>
+    		<label for="url">Web</label> <!-- es del tipo: urlscheme://restofurl  -->
+    		<input type="url" required>
+
+    	</p>
+
+    	<p>
+    		<label for="tel">Telefono Num de contacto</label> <!-- es del tipo: urlscheme://restofurl  -->
+    		<input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required> <small>Format: 123-456-7890</small>
+    	</p>
+
+
+    	<button>Submit</button>
+
+    </form>
+
+
+
     <a href="index.html">Ir a la pagina principal</a>
 
 </body>
