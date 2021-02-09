@@ -1,147 +1,123 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 
 <head>
-    <title>
-        Galeria de Arte - PPE
-    </title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<body>
-	<nav>
-		<ul>
-			<li><a href="Home">Home</a></li>
-			<li><a href="Acerca">Acerca</a></li>
-			<li><a href="Contactos">Contactos</a></li>
-		</ul>
-	</nav>
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700" rel="stylesheet">
 
-	<a href="index3.html">Iniciar sesión...</a>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
 
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/main.css">
 
-	<main>
-    <h1>
-        GALERIA DE ARTE
-    </h1>
-    <hr> 
-
-    <p>Galeria de arte</p>
-    <p>Plataformas de programacion empresarial </p>
-    <p>Por: Clemencia Giraldo Duque</p>
-
-
-    <h2>Sabios y artistas</h2>
-    <p>
-    	"La belleza perece en la vida, <br>
-    	pero es inmortal en el arte" <br>
-    	- Leonardo Davinci -
-
-    </p>
-    <h2>El arte</h2>
-
-    <!-- La siguiente es una imagen  -->
-
-    <img src="imgs\ImagenDeUnaGaleria.jfif" alt="Esta es la galeria de arte ubicada en Medellin">
-
-    <div>
-        <a href="http://www.google.com">Este es un link que me lleva a <span> Google</span></a>
-        <a href="index2.html">Acerca de la galeria</a>
-    </div>
-
-    <p>El <a href="https://es.wikipedia.org/wiki/Arte">arte</a> arte (del latín ars, artis, y este del griego τέχνη téchnē)1​ es entendido generalmente como 
-        cualquier actividad o producto realizado con una finalidad estética y también comunicativa, 
-        mediante la cual se expresan ideas, emociones y, en general, una visión del mundo, a través de 
-        diversos recursos, como los plásticos, lingüísticos, sonoros, corporales y mixtos.
-    </p>
-    <h3>Tipos de arte</h3>
-    <ol>
-        <li>Arte en la prehistoria (ca. 25000-3000 a. C.)</li>
-        <li>Arte antiguo (ca. 3000-300 a. C.)</li>
-        <li>Arte clásico (1000-300 d. C.)</li>
-        <li>Arte en la Alta Edad Media (siglo IV-siglo X)</li>
-        <li>Arte en la Baja Edad Media (900-1400)</li>
-        <li>Arte en la Edad Moderna (1400-1800)</li>
-            <ul>
-                <li>Renacimiento</li>
-                <li>Barroco</li>
-            </ul>
-        <li>Arte no europeo</li>
-        <li>Arte en la Edad contemporánea (1800-actualidad)</li>
-
-    </ol>
-
-    <img src="https://www.eliberico.com/wp-content/uploads/2019/01/galeria-arte-640x336.jpg">
-
-    <figure>
-    	<img src="imgs\ImagenDeUnaGaleria.jfif" 
-    	alt="Esta es la galeria de arte ubicada en Medellin">
-    	<figcaption>Galeria de arte en Medellin</figcaption>
-    </figure>
-
-    
-
-    <h1>Nuevas obras</h1>
-    <table>
-
-    	<tr>
-    		<th>IMAGEN 1</th>
-    		<th>IMAGEN 2</th>
-    		<th>IMAGEN 3</th>
-    	</tr>
-
-    	<tr>
-    		<td>
-    			<img src="imgs\1.jpeg"> <br>
-    			Obra:  Bruxelles <br>
-    			Valor:  COP $ 594.373 <br>
-    			Dimensiones: 80×5×100cm <br>
-    			Técnica:  Al óleo <br>
-    			Artista:  Hakai Sánchez
-    		</td>
-    	
-
-    	 
-    		<td>
-    			<img src="imgs\2.jpg"> <br>
-    			Obra:  Ensueño <br>
-    			Valor:  COP $ 996.775 <br>
-    			Dimensiones: 50×3×60cm <br>
-    			Técnica:  Mixta <br>
-    			Artista:  Lucia Lozano
-    		</td>
-    	
-
-    	 
-    		<td>
-    			<img src="imgs\3.jpg"> <br>
-    			Obra:  Trópico <br>
-    			Valor:  COP $ 978.316 <br>
-    			Dimensiones: 50×3×80cm <br>
-    			Técnica:  Acrílico <br>
-    			Artista:  Lucia Lozano</td>
-    	</tr>
-    </table>
-
-
-
-
-
-
-</main>
-	<footer>
-		<p>Este es mi sitio web: Galeria de arte</p>
-		<u>
-			<li><a href="Contactos">Contactos</a></li>
-			<li><a href="Ayuda">Ayuda</a></li>
-		</u>
-    <h4> &copy; copyright Derechos Reservados Clemencia Giraldo Duque &diams;</h4>
-    </footer>
-
-
-
-
-</body>
+    <title>Galería de Arte</title>
 </head>
 
+<body>
+    <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">
+        <a href="#" class="navbar-brand">GALERÍA</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navLinks">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="" class="nav-link">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">ACERCA DE MI</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">EXPOSICIONES</a>
+                </li>
+                 <li class="nav-item">
+                    <a href="" class="nav-link">CONTÁCTANOS</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
+    <section class="container-fluid px-0">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <div id="headingGroup" class="text-white text-center d-none d-lg-block mt-5">
+                    <h1 class="">GALERIA DE ARTE</h1>
+                  
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <img class="img-fluid" src="imgs\1.jpeg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="container-fluid px-0">
+        <div class="row align-items-center content">
+            <div class="col-md-6 order-2 order-md-1">
+                <img src="imgs\2.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="col-md-6 text-center order-1 order-md-2">
+                <div class="row justify-content-center">
+                    <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
+                        <h2>GALERIA DE ARTE</h2>
+                        <img src="imgs\3.jpg" alt="" class="d-none d-lg-inline">
+                        <p class="lead">GALERIA DE ARTE.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row align-items-center content">
+            <div class="col-md-6 text-center">
+                <div class="row justify-content-center">
+                    <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
+                        <h2>GALERIA DE ARTE</h2>
+                        <img src="imgs\ImagenDeUnaGaleria.jfif" alt="" class="d-none d-lg-inline">
+                        <p class="lead">GALERIA DE ARTE.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <img src="https://www.eliberico.com/wp-content/uploads/2019/01/galeria-arte-640x336.jpg" alt="" class="img-fluid">
+            </div>
+        </div>
+        <div class="row align-items-center content">
+            <div class="col-md-6 order-2 order-md-1">
+                <img src="https://www.eliberico.com/wp-content/uploads/2019/01/galeria-arte-640x336.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="col-md-6 text-center order-1 order-md-2">
+                <div class="row justify-content-center">
+                    <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
+                        <h2>GALERIA DE ARTE</h2>
+                        <img src="https://www.eliberico.com/wp-content/uploads/2019/01/galeria-arte-640x336.jpg" alt="" class="d-none d-lg-inline">
+                        <p class="lead">GALERIA DE ARTE.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+    <script>
+        $(function () {
+            $(document).scroll(function () {
+                var $nav = $("#mainNavbar");
+                $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+            });
+        });
+    </script>
+</body>
 
 </html>
